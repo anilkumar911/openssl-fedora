@@ -1,28 +1,28 @@
 # openssl-fedora
 Environment to build openssl from Fedora rpm source
 
-This repocontains the environment to build openssl through source published as part of Fedora project using Docker container.
+This repo contains the environment to build openssl through source published as part of Fedora project using Docker container.
 Follow the below steps to build.
 
 1. Clone this repository and run below commands in the repository root.
 
-3. Build the docker image:
+2. Build the docker image:
 ```
 bash -x scripts/build_docker_fc.sh
 ```
-2. Get interactive terminal into the docker
+3. Get interactive terminal into the docker
 ```
 bash -x scripts/interactive_docker_fc.sh
 ```
-3. Clone the Fedora openssl repo
+4. Clone the Fedora openssl repo
 ```
 git clone https://src.fedoraproject.org/rpms/openssl.git
 ```
-4. switch to desired branch (fc28 -- RHEL8)
+5. switch to desired branch (fc28 -- RHEL8)
 ```
 git checkout fc28
 ```
-5. Build the rpm package
+6. Build the rpm package
 ```
 fedpkg --release f28 local
 ```
