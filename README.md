@@ -22,10 +22,11 @@ git clone https://src.fedoraproject.org/rpms/openssl.git
 ```
 git checkout fc28
 ```
-5.
+5. Build the rpm package
 ```
 fedpkg --release f28 local
 ```
+Above command will build the rpm package named openssl-1.1.0i-1.fc28.src.rpm
 
 # References
 1. Building RPM packages: https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/
