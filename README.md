@@ -26,7 +26,18 @@ git checkout fc28
 ```
 fedpkg --release f28 local
 ```
-Above command will build the rpm package named openssl-1.1.0i-1.fc28.src.rpm
+Above command will build the rpm packages are generated under openssl/x86_64/ folder
+```
+axolotl@xochimilco:~/git/openssl-fedora$ ls openssl/x86_64/
+openssl-1.1.0i-1.fc28.x86_64.rpm
+openssl-debugsource-1.1.0i-1.fc28.x86_64.rpm
+openssl-libs-1.1.0i-1.fc28.x86_64.rpm
+openssl-perl-1.1.0i-1.fc28.x86_64.rpm
+openssl-debuginfo-1.1.0i-1.fc28.x86_64.rpm
+openssl-devel-1.1.0i-1.fc28.x86_64.rpm
+openssl-libs-debuginfo-1.1.0i-1.fc28.x86_64.rpm
+openssl-static-1.1.0i-1.fc28.x86_64.rpm
+```
 
 # References
 1. Building RPM packages: https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/
