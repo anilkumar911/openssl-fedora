@@ -43,3 +43,4 @@ openssl-static-1.1.0i-1.fc28.x86_64.rpm
 1. Building RPM packages: https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/
 2. Relationship between Fedora and RHEL: https://docs.fedoraproject.org/en-US/quick-docs/fedora-and-red-hat-enterprise-linux/
 3. Centos openssl patches: https://git.centos.org/rpms/openssl/tree/c8
+4. Building RPM packages on Centos: https://www.redhat.com/sysadmin/create-rpm-package (https://www.thegeekstuff.com/2015/02/rpm-build-package-example/)
